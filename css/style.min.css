@@ -36,11 +36,11 @@ h1, h2 {
 }
 
 a {
-    color: #c98c63;
+    color: #B7960B;
     font-weight: 600;
 }
 .team-social-links a{
-    color: #c98c63;
+    color: #B7960B;
 }
 
 a:focus,
@@ -126,7 +126,7 @@ a:hover {
 
 #navbar-header {
     height: 100px;
-    background: #c98c63;
+    background: #B7960B;
 }
 
 #navbar-header .navbar-nav .dropdown-menu {
@@ -170,8 +170,8 @@ a:hover {
 
 .btn-primary {
     display: inline-block;
-    background-color: #c98c63;
-    border-color: #c98c63;
+    background-color: #B7960B;
+    border-color: #B7960B;
     color: #fff;
     border-radius: 15px;
     padding: 10px 25px;
@@ -490,7 +490,7 @@ a:hover {
     z-index: 1002;
     top: 0;
     left: 0;
-    background-color: #c98c63;
+    background-color: #B7960B;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -675,11 +675,11 @@ a:hover {
     left: 75px;
     width: 200px;
     height: 1px;
-    background: #c98c63;
+    background: #B7960B;
 }
 
 #gtco-special-dishes h3 span {
-    color: #c98c63;
+    color: #B7960B;
 }
 
 .dishes-text {
@@ -708,7 +708,7 @@ a:hover {
         top: 0;
         height: auto;
         width: 100%;
-        background-color: #c98c63;
+        background-color: #B7960B;
         z-index: 11;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -837,15 +837,15 @@ a:hover {
     font-weight: 500;
     font-size: 20px;
     padding: 10px 40px;
-    border: 2px solid #c98c639;
-    background: #c98c639 !important;
+    border: 2px solid #B7960B9;
+    background: #B7960B9 !important;
     color: #fff;
 
 }
 
 .booking-big:hover {
-    border: 2px solid #c98c63 !important;
-    background: #c98c63 !important;
+    border: 2px solid #B7960B !important;
+    background: #B7960B !important;
     color: #fff;
 }
 
@@ -861,7 +861,7 @@ a:hover {
     }
 
     #navbar-header {
-        background: #c98c63;
+        background: #B7960B;
     }
 
     .lnr {
@@ -878,7 +878,7 @@ a:hover {
 }
 
 .nav-link-footer {
-    color: #c98c639 !important;
+    color: #B7960B9 !important;
 }
 
 .nav-link-footer:hover {
@@ -904,7 +904,7 @@ a:hover {
 }
 
 .text-pink {
-    color: #c98c639;
+    color: #B7960B9;
     font-weight: 300;
 }
 .text-foot {
@@ -939,13 +939,13 @@ a:hover {
 .text-big {
     font-weight: 300;
     letter-spacing: 4px;
-    color: #c98c639;
+    color: #B7960B9;
     text-transform: uppercase;
     font-size: 30px;
 }
 
 .team-social-links a:hover {
-    color: #c98c639;
+    color: #B7960B9;
 }
 
 .sidenav-content h5 {
@@ -958,8 +958,8 @@ a:hover {
 
 
 .btn-lg-banner {
-    background: #c98c639 !important;
-    border-color: #c98c639 !important;
+    background: #B7960B9 !important;
+    border-color: #B7960B9 !important;
 }
 .btn-lg-banner:hover {
     background: #b2774f !important;
@@ -971,7 +971,7 @@ a:hover {
 
 /*--------------------  css for hot mails ---------------*/
 .color-title{
-    color: #c98c63;
+    color: #B7960B;
 }
 .display-5{
     color: #6c5863;
@@ -980,4 +980,212 @@ a:hover {
 
 .bg-color{
     background: #f5f3ee;
+}
+/*Gallery*/
+.page-section {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.page-hero {
+    position: relative;
+    height: 600px;
+    z-index: 10;
+}
+
+.page-banner {
+    position: relative;
+    height: 300px;
+    z-index: 10;
+}
+
+.page-hero.overlay-dark::before,
+.page-banner.overlay-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(0, 217, 165, 0.7);*/
+    z-index: 1;
+}
+
+.page-banner .breadcrumb-item,
+.page-banner .breadcrumb-item a {
+    font-size: 14px;
+}
+
+.hero-section,
+.banner-section {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    color: #ffffff;
+    z-index: 10;
+}
+
+.hero-section .subhead {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.hero-section h1 {
+    margin-bottom: 32px;
+}
+
+.input-navbar {
+    width: auto;
+    max-width: 280px;
+}
+
+.input-navbar .input-group-text {
+    background-color: #fff;
+    color: #3E6777;
+}
+
+.input-navbar .form-control {
+    height: calc(1.5em + 1rem + 2px);
+}
+
+
+.card-service {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    font-size: 17px;
+    line-height: normal;
+    /*background-image: linear-gradient(to right, #eea927, #e8bd37, #ffd13c, #ffecaa);*/
+    border: 2px solid #55b2b8;
+    border-radius: 10px;
+    /*box-shadow: 0 2px 6px rgba(154, 159, 151, 0.2);*/
+
+    background-image: linear-gradient(to right, #0c7884, #55b2b8, #47cfd7)
+}
+
+.card-service p, .card-service a.phone-call{
+    margin-top: 10px;
+    /*margin-left: 32px;*/
+    color: #fff;
+}
+
+.circle-shape {
+    flex-shrink: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    /*margin-left: -20px;*/
+}
+
+#doctorSlideshow .owl-nav {
+    margin-top: 24px;
+}
+
+.card-doctor {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(154, 159, 151, 0.2);
+    overflow: hidden;
+}
+
+.card-doctor .text-xl {
+    font-weight: 500;
+}
+
+.card-doctor .header {
+    position: relative;
+    width: 100%;
+    /*height: 420px;*/
+    overflow: hidden;
+}
+
+.card-doctor .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 53, 49, 0.36);
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.card-doctor:hover .header::before {
+    opacity: 1;
+}
+
+.card-doctor .header .meta {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /*width: 100px;*/
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s ease;
+    text-align: center;
+}
+
+.card-doctor:hover .header .meta {
+    bottom: 15px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.card-doctor .header .meta a {
+    display: inline-block;
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #B7960B ;
+    color: #fff;
+    font-size: 30px;
+    box-shadow: 0 4px 8px rgba(154, 159, 151, 0.6);
+    transition: all .2s ease;
+}
+
+.card-doctor .header .meta a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #B7960B;
+}
+
+.card-doctor .header img {
+    width: 100%;
+}
+
+.card-doctor .body {
+    padding: 15px 20px;
+}
+
+.heading-menu .text-center{
+    font-size: 25px !important;
+}
+.border-top-dash{
+    border-top: 1px dashed #ccc;
 }
